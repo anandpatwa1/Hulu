@@ -93,6 +93,7 @@ svg {
 }
 
 .container h2 {
+    
     font-size: 20px;
     padding: 10px;
 }
@@ -362,13 +363,19 @@ svg {
 }
 
 .bNews .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     background-color: #fff;
     height: 50px;
     width: 50px;
     border-radius: 70px;
     margin-right: 20px;
 }
-
+.bNews .icon img{
+    height: 26px;
+}
 .bNews .pTmc {
     margin: 10px 0;
     font-size: 8px;
@@ -431,6 +438,9 @@ width: 78%;
     width: 262px;
     border-radius: 9px;
     padding: 6px 10px;
+}
+.price div button:hover{
+    opacity: 0.8;
 }
 .table{
     display: flex;
